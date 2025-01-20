@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.github.brymit.grinderenhance.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "grinder_enhance.refmap.json",
+  "mixins": [
+    "MixinGrinder"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
